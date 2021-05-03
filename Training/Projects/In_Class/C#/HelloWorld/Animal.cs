@@ -4,6 +4,9 @@ namespace HelloWorld
 {
     public class Animal
     {
+        private string species;
+
+        public string Species { get => species; set => species = value; }
 
         public Animal(string Species)
         {
@@ -20,8 +23,5 @@ namespace HelloWorld
         protected void protectedMethod(){
              Console.WriteLine("This method is only accessible inside this project");
         }
-
-        public string Species { 
-            get {return this.Species;} set { this.Species = value; }}
     }
 }

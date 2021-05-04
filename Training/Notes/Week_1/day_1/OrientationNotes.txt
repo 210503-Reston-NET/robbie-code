@@ -1,0 +1,109 @@
+Revature Training Notes
+
+Any Questions: hr@revature.com - HR
+		Kyle.Taylor@revature.com - Presenter
+		
+
+2 1/2 sessions per day
+3 hours 10-1
+4 hours 2-6
+1 float 6-7
+
+payroll through Direct Deposit:
+Time Sheets submited Friday
+Payroll: ADP
+Benefits Plan election within the next 60 days
+Bi-Weekly; two weeks behind time (First pay: May 21st, partial week due to start time)
+Bank Statements will work instead of blank check
+Will recieve paycard while we wait for DD to setup
+paycard is also for expense supplements (Relocation checks)
+
+(Will be accessible soon)
+
+I-9 form Day 1
+I-9 documents Day 3
+
+ICE BREAKERS
+1.	What was the first concert you ever went to?
+	Bleachers concert with Wife
+2.	What is your favorite song or music genre?
+	Gorillaz: Clint Eastwood
+3.	If you are stranded on an island and have the option of bringing three items with you, what three items would they be and why?
+	Radio, Generator, A Bunch of gas
+
+4.	If you could have any celebrity over for dinner, who would that be and why?
+	Elon Musk, I would love 
+5.	If you could travel to a different country, where would you go?
+6.	If you could travel through time, what would you go and why?
+7.	If you could be any animal, what would you be?
+8.	Do you have a favorite professional sport team? If so, what is the team name?
+
+Clients Wants:
+
+"Continuous Learning Animals"
+
+Training and post training expectations:
+
+First years pay deduction is to pay for newer trainees pay check and to support Revature
+
+Hiring is stronger now than before
+
+
+Training:
+
+Covered Stacks:
+	C#
+	.Net
+	ASP
+	Azure
+	Cloud Services
+	Dev Ops 
+	Angular
+	TypeScript
+
+
+Weekly Expectations:
+
+Weekly Quizes
+QC: Weekly Exams
+Project Work
+Hacker Rank Challenges
+Activities;
+	Reporting
+	Research
+
+Project Projections:
+
+proj 0: 
+Proj 1: Web App (Solo)
+Proj 2: Web App (Group)
+Proj 3: Full Stack (Little to no support from trainer)
+
+Abilities
+
+-Debug
+-Problem Solving
+-Research
+
+
+
+CLIENTS PAY ATTENTION TO THE FIRST TWO WEEKS OF TRAINING!!
+
+
+Skills Obtained
+-Analytical Thinking & Problem Solving Skills
+-Communication
+-Presentation
+-Work Ethics
+-Ability to work and deliver as an individual
+-Ability to work and collaborate as part of a team
+
+Successful in Training?
+Work closer with your Batch mate
+Two people stuck together? work together to figure out your issues.
+
+Communication Channel
+RevatureConnect - Primary
+Discord - Secret Underground channel
+
+

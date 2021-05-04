@@ -51,7 +51,7 @@ namespace RRModels
 
         public override string ToString()
         {
-            return $" Name: {Name} \n Location: {City}, {State} \n Review: {Review.ToString()}";
+            return $" Name: {Name} \n Location: {City}, {State} \n Review: \n\t{Review.ToString()}";
         }
     }
 }

@@ -24,8 +24,12 @@ namespace HelloWorld
             Animal animal= new Animal("Tiger");
 
             animal.publicMethod();
-           // animal.protectedMethod();  Not Accessible due to protection level
+            // animal.protectedMethod();  Not Accessible due to protection level
             // animal.privateMethod();  Not Accessible due to protection level
+
+            Console.WriteLine(animal.Species);
+
+            animal.Species = "Lion";
 
             Console.WriteLine(animal.Species);
         }

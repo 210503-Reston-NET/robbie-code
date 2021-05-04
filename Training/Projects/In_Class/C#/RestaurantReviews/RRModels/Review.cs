@@ -22,7 +22,7 @@ namespace RRModels
         /// <returns></returns>
         public override string ToString()
         {
-            return $" Rating: {Rating} \n\t Description: {Description}";
+            return $"\n\t Rating: {Rating} \n\t Description: {Description}";
         }
     }
 }

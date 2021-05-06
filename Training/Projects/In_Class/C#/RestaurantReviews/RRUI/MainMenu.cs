@@ -1,4 +1,5 @@
 using System;
+using RRBL;
 using RRModels;
 using System.Collections.Generic;
 
@@ -7,6 +8,7 @@ namespace RRUI
 {
     public class MainMenu : IMenu
     {
+        public IMenu subMenu;
         public void Start()
         {
             bool repeat = true;
@@ -16,25 +18,14 @@ namespace RRUI
             do{
             Console.WriteLine("Welcome to my restaurant Reviews Application!");
             Console.WriteLine("What would you like to do?");
-            Console.WriteLine("[0] Add a restaurant.");
+            Console.WriteLine("[0] CRUD restaurant.");
             Console.WriteLine("[1] Exit.");
             string input = Console.ReadLine();
 
             switch (input){
                 case "0":
-                    //add a restaurant
-                    Console.WriteLine("Please give name of restaurant.");
-                    string Name = Console.ReadLine();
-                    Console.WriteLine("Please give name of City that the restaurant resides.");
-                    string City = Console.ReadLine();
-                    Console.WriteLine("Please give name of State that the restaurant resides.");
-                    string State = Console.ReadLine();
-                    try {
-                        Restaurants.Add(addRestaurant(Name, City, State));
-                        Console.Write("Added " + Name + " to list of restaurant.");
-                    }
-                    catch (Exception e){
-                    }
+                    subMenu = new RestaurantMenu(new RestaurantBL(new RepoSC()));
+                    subMenu.Start();
                     break;
                 case "1":
                 // Exit

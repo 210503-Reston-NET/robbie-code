@@ -1,9 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  
-   <ItemGroup>
-    <ProjectReference Include="..\RRModels\RRModels.csproj" />
-    <ProjectReference Include="..\RRBL\RRBL.csproj" />
-  </ItemGroup>
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>

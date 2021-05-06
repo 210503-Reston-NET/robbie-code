@@ -22,7 +22,8 @@ namespace RRUI
             Console.WriteLine("Welcome to my restaurant Reviews Application!");
             Console.WriteLine("What would you like to do?");
             Console.WriteLine("[0] View Restraunt.");
-            Console.WriteLine("[1] Go Back.");
+            Console.WriteLine("[1] View Restraunt.");
+            Console.WriteLine("[2] Go Back.");
             string input = Console.ReadLine();
 
             switch(input)
@@ -31,6 +32,9 @@ namespace RRUI
                     ViewRestaurants();
                     break;
                 case "1":
+                    AddARestaurant();
+                    break;
+                case "2":
                     repeat = false;
                     break;
                 default:
@@ -40,6 +44,16 @@ namespace RRUI
             }
             while(repeat);
         }
+
+        private void AddARestaurant()
+        {
+            System.Console.WriteLine("Enter the details of the restaurant you want to add");
+            // Want to make sure end user doesn't input nothing
+            // Come up with some validation to valdate the input I'm Recieving
+            System.Console.WriteLine("Please Enter a Name");
+
+        }
+
         public void ViewRestaurants()
         {
             List<Restaurant> results =  _restaurantBL.GetAllRestaurants();
@@ -48,5 +62,7 @@ namespace RRUI
                 Console.WriteLine(restaurant.ToString());
             }
         }
+
+        
     }
 }

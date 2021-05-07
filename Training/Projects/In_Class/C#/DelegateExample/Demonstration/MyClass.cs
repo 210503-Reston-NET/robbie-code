@@ -28,7 +28,7 @@ namespace Demonstration
 
             for (int i = 0; i < 10; i++)
             {
-                int temp = (int)(rand.Next() + 1);
+                int temp = (int)(rand.Next(-1,1) + 1);
                 bools[i] = (temp != 0) ? true : false;
             }
             return bools;

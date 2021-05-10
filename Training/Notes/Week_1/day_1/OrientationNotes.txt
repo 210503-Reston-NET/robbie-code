@@ -1,10 +1,18 @@
 Revature Training Notes
 
+"Computer Science is an embodying of science of operations (Giving Instructions)" - Ada Lovelace
+
 Any Questions: hr@revature.com - HR
 		Kyle.Taylor@revature.com - Presenter
 		Marielle.Nolasco@revature.com - Teacher
 		azhya.knox@revature.com - QC
 		Emily.baillie@revature.com - Staging
+		avi@revature.com - Motivational Speaker..?
+
+
+Important Websites
+		Timesheets - https://rev2.force.com/revature
+		Connect    - https://connect.revature.net/
 		
 
 2 1/2 sessions per day

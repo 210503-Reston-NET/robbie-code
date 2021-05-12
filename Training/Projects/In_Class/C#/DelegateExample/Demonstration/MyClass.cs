@@ -11,9 +11,11 @@ namespace Demonstration
             // Define delegate class and responder
             Broker Bob = new Broker("Bob");
             Investor Frank = new Investor("Frank");
+            BadInvestor Tom = new BadInvestor("Tom");
 
             // Enlist Bob's help for Franks investments
             Bob.AdviceInstance += Frank.onNotify;
+            Bob.AdviceInstance += Tom.onNotify;
 
             // Invokes the Delegate for each shift in the market
             foreach (bool shift in StockMarket)
